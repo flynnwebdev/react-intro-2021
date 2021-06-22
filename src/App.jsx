@@ -1,12 +1,11 @@
 import React from 'react';
+import Greeting from './Greeting';
 
 function App() {
   return (
     <div style={{ textAlign: 'center' }}>
       <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Greeting />
         <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
